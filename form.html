@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        A form demo
+    </title>
+</head>
+
+<body>
+    <h1>Login form test</h1>
+    <form>
+        <!-- <form action="https://en.wikipedia.org/wiki/English_Wikipedia" method="GET"</form> -->
+        <!-- one method of connecting labels -->
+        <label for="username">A username:</label>
+        <input name="username" type="text" placeholder="username" required>
+        <!-- with simple validaiton presence validation-->
+
+        <label for="email">An email:</label>
+        <input name="email" type="email" placeholder="e@mail.com" required>
+        <!-- with simple validaiton typea nd presence validation-->
+
+        <!-- Other methid is that you can nest input inside teh lable -->
+        <label>
+            A password: <input name="password" type="password" placeholder="password">
+        </label>
+        <input type="submit">
+    </form>
+
+    <p>Do you prefer cats or dogs?</p>
+    <form>
+        <label for="dogs">Dogs: </label>
+        <input name="petChoice" type="radio" id="dogs" value="DOGS">
+
+        <label for="cats">Cats: </label>
+        <input name="petChoice" type="radio" id="cats" value="CATS">
+
+        <p>What's your favorite color?</p>
+        <select name="color" id="">
+            <option value="red123">Red</option>
+            <option value="orange456">Orange</option>
+            <option value="yellow2">Yellow</option>
+        </select>
+
+        <p>A text area to type some nice poems in</p>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <div>
+            <button>Go!</button>
+        </div>
+    </form>
+
+    <div height="50">
+
+    </div>
+
+    <h1>Register</h1>
+    <form action="">
+        <div>
+            <label for="firstname">First name: </label>
+            <input name="firstname" type="text" placeholder="name" id="firstname" required>
+            <label for="lastname">Last name: </label>
+            <input name="lastname" type="text" placeholder="surname" id="lastname" required>
+        </div>
+        <div>
+            <label for="male">Male </label>
+            <input name="gender" type="radio" value="male" id="female">
+            <label for="female">Female </label>
+            <input name="gender" type="radio" value="female" id="female">
+            <label for="other">Other </label>
+            <input name="gender" type="radio" value="other" id="other">
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input name="email" type="email" name="email" placeholder="email" required>
+            <label for="password">Passwowrd: </label>
+            <input name="password" type="password" pattern=".{5,10}" required title="Password must be betwen 5 and 10">
+        </div>
+        <div>
+            <label>Birthday:
+                <select name="month">
+                    <option value="1">January</option>
+                    <option value="2">Febraury</option>
+                </select>
+                <select name="Day">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                <select name="Year">
+                    <option>2020</option>
+                    <option>2019</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label for="">I agree to the terms and conditions: </label>
+            <input type="radio" name="tandc">
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

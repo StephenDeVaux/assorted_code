@@ -1,0 +1,57 @@
+body {
+    background: url(https://www.agedwoods.com/wp-content/uploads/2018/03/agedwoods-whyisthegrainimportant-benefitsofreclaimedwood-2018.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: rgba(255,255,255,1);
+}
+
+h4 {
+    color: #00FF00;
+    background: rgba(140,0,0,0.5);
+    border: 5px solid black;
+}
+
+/*Element selector*/
+li {
+    color: rgb(0,0,0);
+    background: rgba(255,255,255,0.5);
+    border: 1px dashed red; 
+}
+
+/*ID selector*/
+#special {
+    background: yellow;
+}
+
+/*Class selector*/
+.special1 {
+    text-decoration-line: line-through;
+}
+
+/*Star selector*/
+* {
+    border: 1px solid lightcoral;
+}
+
+/*Descendant selector*/
+li a {
+    color: red;
+    background: black;
+}
+
+/*Adjacent selector*/
+h4 + ul {
+    border: 2px solid purple;
+}
+
+/*Attribute selector*/
+a [href="http://www.google.com"] {
+    background: blue; 
+}
+
+/*nth of type selector will select like every 5th element of that type specified*/
+li:nth-of-type(3) {
+    background: green; 
+}
