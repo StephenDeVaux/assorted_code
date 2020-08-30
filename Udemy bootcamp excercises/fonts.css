@@ -1,0 +1,29 @@
+body {
+    font-size: 10px; 
+}
+h1 {
+    font-size: 5.0em;
+    font-family: 'Balsamiq Sans', cursive;
+}
+p {
+    font-size: 2.0em; 
+    font-weight: bold;
+    line-height: 1.5; 
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+span {
+    font-size:3.0em;
+}
+
+.boxmodeltesting {
+    border: 2px solid blue; 
+    /* content - width and height */
+    width: 50%; 
+    /* Padding */
+    padding: 10px;
+    margin: 1px;
+    margin: 2px auto 0 auto; 
+}

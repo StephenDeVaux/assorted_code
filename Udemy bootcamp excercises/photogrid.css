@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Lily Script One', cursive;
+    text-align: center;
+    border-bottom: 3px solid lightgrey;
+    width: 30%;
+    margin: 0 auto 15px auto;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 30%; 
+    float: left;
+    margin: 1.66%; 
+}
+
