@@ -1,0 +1,29 @@
+body {
+    margin-top: 70px; 
+}
+
+.jumbotron {
+    color: #2c3e50;
+}
+
+.navbar {
+    background: #2c3e50;
+}
+
+svg {
+    margin: 0 5px 5px 0; 
+}
+
+/* .img-thumbnail {
+    height: 200px;
+} */
+
+.col-lg-4 {
+ padding-top: 15px;
+ padding-bottom: 15px; 
+}
+
+.col-sm-6 {
+    padding-top: 15px;
+    padding-bottom: 15px; 
+   }
